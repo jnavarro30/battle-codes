@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+
 
 const App = () => {
   return (
-    <div className="App">
-      Hi
-    </div>
+    <Router>
+      Hello
+    </Router>
   );
 }
 
